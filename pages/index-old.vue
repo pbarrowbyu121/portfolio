@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">projects</h1>
+      <h1 class="title">portfolio</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,6 +26,7 @@
 </template>
 
 <script>
+// import '../src/index.js'
 export default {}
 </script>
 
