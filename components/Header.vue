@@ -6,7 +6,7 @@
       >
     </div>
     <div class="flex justify-between p-8">
-      <NuxtLink class="p-2" to="/projects">Projects</NuxtLink>
+      <!-- <NuxtLink class="p-2" to="/projects">Projects</NuxtLink> -->
       <p class="p-2">About</p>
     </div>
   </div>
@@ -18,4 +18,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+#header {
+  font-family: 'Merriweather';
+}
+</style>

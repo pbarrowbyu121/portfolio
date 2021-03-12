@@ -1,53 +1,67 @@
 {
   "projects": [
     {
+      "id": 8,
+      "title": "Sudoku Solver",
+      "image": "SudokuSolver.png",
+      "description": "Sudoku Solver",
+      "skills": ["Vue", "JavaScript", "HTML", "CSS"],
+      "link": "https://github.com/pbarrowbyu121/sudoku-solver"
+    },
+    {
       "id": 1,
-      "title": "ToDo List",
-      "image": "./assets/images/ToDo.png",
-      "description": "Simple CRUD app, ToDo list",
-      "skills": ["JavaScript", "Vue"]
+      "title": "Contacts App",
+      "image": "ContactApp.png",
+      "description": "Simple CRUD app, Contacts list",
+      "skills": ["JavaScript", "Vue", "HTML", "CSS"],
+      "link": "https://github.com/pbarrowbyu121/contacts-app"
     },
     {
       "id": 2,
       "title": "Chloro map",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/YzGwxEg.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1607366979&width=960",
+      "image": "ChloroMap.png",
       "description": "Map showing percent of population with bachelors degree by county",
-      "skills": ["Javascript", "d3"]
+      "skills": ["Javascript", "d3"],
+      "link": "https://codepen.io/pbarrowbyu/pen/YzGwxEg"
     },
     {
       "id": 3,
       "title": "Interval Clock",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/vYyzrJd.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1615186328&width=960",
+      "image": "IntervalClock.png",
       "description": "React clock",
-      "skills": ["JavaScript", "React", "Tailwind"]
+      "skills": ["JavaScript", "React", "Tailwind"],
+      "link": "https://codepen.io/pbarrowbyu/pen/vYyzrJd"
     },
     {
       "id": 4,
       "title": "Drum Machine",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/QWEzZOo.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1605550143&width=960",
+      "image": "DrumMachine.png",
       "description": "Drum machine with sound effects on key press or on click",
-      "skills": ["JavaScript", "React"]
-    },
-    {
-      "id": 5,
-      "title": "Connect Four game",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/ExNdpWw.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1615246773&width=960",
-      "description": "Connect four game, study of js, html, css",
-      "skills": ["JavaScript", "HTML", "CSS"]
+      "skills": ["JavaScript", "React"],
+      "link": "https://codepen.io/pbarrowbyu/pen/QWEzZOo"
     },
     {
       "id": 6,
       "title": "Snake game",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/bGBmjqb.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1615246719&width=960",
+      "image": "Snake.png",
       "description": "Snake game in the tradition of nokia snake",
-      "skills": ["JavaScript", "HTML", "CSS"]
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "link": "https://codepen.io/pbarrowbyu/pen/bGBmjqb"
     },
     {
       "id": 7,
       "title": "Space Invaders game",
-      "image": "https://assets.codepen.io/5075526/internal/screenshots/pens/jOVepyb.default.png?fit=cover&format=auto&ha=true&height=540&quality=75&v=2&version=1615246546&width=960",
+      "image": "SpaceInvaders.png",
       "description": "Space Invading game",
-      "skills": ["JavaScript", "HTML", "CSS"]
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "link": "https://codepen.io/pbarrowbyu/pen/jOVepyb"
+    },
+    {
+      "id": 9,
+      "title": "Random Quote Machine",
+      "image": "RandomQuoteMachine.png",
+      "description": ["React", "CSS", "HTML", "JavaScript"],
+      "link": "https://github.com/pbarrowbyu121/contacts-app"
     }
   ]
 }

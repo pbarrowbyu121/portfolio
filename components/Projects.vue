@@ -1,6 +1,6 @@
 <template>
   <div id="projectsPage" class="flex-1 overflow-y-auto">
-    <h1 class="text-center mt-10">Projects</h1>
+    <h1 class="text-2xl text-center mt-10">Projects</h1>
     <div
       id="projectsContainer"
       class="m-16 max-w-lg grid gap-5 lg:grid-cols-3 lg:max-w-none"

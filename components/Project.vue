@@ -2,7 +2,7 @@
   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
     <!-- image div -->
     <div class="flex-shrink-0">
-      <img class="h-48 w-full object-scale-down" :src="project.image" />
+      <img class="h-48 w-full object-scale-down" :src="projImage" />
     </div>
     <!-- div for text level 1 -->
     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -44,7 +44,11 @@
       </div>
     </div>
 
-    <div><div class="flex pl-8 pb-2">Link</div></div>
+    <div>
+      <div class="flex pl-8 pb-2">
+        <a :href="project.link" class="hover:underline">View Code Here</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -53,6 +57,13 @@ export default {
   name: 'Project',
   props: {
     project: Object,
+  },
+  computed: {
+    projImage() {
+      const fileName = this.project.image
+
+      return require(`~/assets/images/${fileName}`) // the module request
+    },
   },
 }
 </script>
