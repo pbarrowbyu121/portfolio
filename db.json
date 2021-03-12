@@ -1,11 +1,19 @@
 {
   "projects": [
     {
+      "id": 10,
+      "title": "PaperTraders",
+      "image": "PaperTraders.png",
+      "description": "App to simulate stock trading without requiring broker account",
+      "skills": ["React", "KeystoneJS", "CSS", "HTML", "JavaScript"],
+      "link": "https://github.com/pbarrowbyu121/Advanced-React/tree/master/paper-traders"
+    },
+    {
       "id": 8,
       "title": "Sudoku Solver",
       "image": "SudokuSolver.png",
-      "description": "Sudoku Solver",
-      "skills": ["Vue", "JavaScript", "HTML", "CSS"],
+      "description": "Solves sudoku puzzles algorithmically",
+      "skills": ["Vue", "JavaScript", "HTML", "Tailwind", "CSS"],
       "link": "https://github.com/pbarrowbyu121/sudoku-solver"
     },
     {
@@ -13,7 +21,7 @@
       "title": "Contacts App",
       "image": "ContactApp.png",
       "description": "Simple CRUD app, Contacts list",
-      "skills": ["JavaScript", "Vue", "HTML", "CSS"],
+      "skills": ["JavaScript", "Vue", "HTML", "Tailwind", "CSS"],
       "link": "https://github.com/pbarrowbyu121/contacts-app"
     },
     {
@@ -60,7 +68,8 @@
       "id": 9,
       "title": "Random Quote Machine",
       "image": "RandomQuoteMachine.png",
-      "description": ["React", "CSS", "HTML", "JavaScript"],
+      "description": "Site that displays a random quote",
+      "skills": ["React", "CSS", "HTML", "JavaScript"],
       "link": "https://github.com/pbarrowbyu121/contacts-app"
     }
   ]
