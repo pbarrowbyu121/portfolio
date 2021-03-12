@@ -44,7 +44,7 @@
       "id": 6,
       "title": "Snake game",
       "image": "Snake.png",
-      "description": "Snake game in the tradition of nokia snake",
+      "description": "Snake game in the tradition of Nokia Snake",
       "skills": ["JavaScript", "HTML", "CSS"],
       "link": "https://codepen.io/pbarrowbyu/pen/bGBmjqb"
     },
