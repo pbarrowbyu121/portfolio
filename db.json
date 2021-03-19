@@ -24,6 +24,14 @@
       "skills": ["JavaScript", "Vue", "HTML", "Tailwind", "CSS"],
       "link": "https://github.com/pbarrowbyu121/contacts-app"
     },
+        {
+      "id": 11,
+      "title": "Twitter Clone",
+      "image": "TwitterClone.png",
+      "description": "Mockup of twitter app as study of Quasar",
+      "skills": ["JavaScript", "Quasar", "Vue", "HTML", "Tailwind", "CSS"],
+      "link": "https://github.com/pbarrowbyu121/quasar-twitter-clone"
+    },
     {
       "id": 2,
       "title": "Chloro map",
