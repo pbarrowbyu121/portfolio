@@ -9,6 +9,14 @@
       "link": "https://github.com/pbarrowbyu121/Advanced-React/tree/master/paper-traders"
     },
     {
+      "id": 12,
+      "title": "Quasargram",
+      "image": "Quasargram.png",
+      "description": "Instagram clone made as study of Quasar",
+      "skills": ["Quasar", "Firebase", "CSS", "HTML", "JavaScript"],
+      "link": "https://github.com/pbarrowbyu121/quasargram"
+    },
+    {
       "id": 8,
       "title": "Sudoku Solver",
       "image": "SudokuSolver.png",
