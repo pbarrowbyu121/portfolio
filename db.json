@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 13,
+      "title": "PaperTradersApp.com",
+      "image": "PaperTraders.png",
+      "description": "WIP Quasar App to simulate stock trading without requiring broker account",
+      "skills": ["Quasar", "Vue", "CSS", "HTML", "JavaScript"],
+      "link": "papertradersapp.com"
+    },
+    {
       "id": 10,
       "title": "PaperTraders",
       "image": "PaperTraders.png",
