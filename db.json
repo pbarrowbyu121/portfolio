@@ -3,7 +3,7 @@
     {
       "id": 13,
       "title": "PaperTradersApp.com",
-      "image": "PaperTraders.png",
+      "image": "papertradersapp.png",
       "description": "WIP Quasar App to simulate stock trading without requiring broker account",
       "skills": ["Quasar", "Vue", "CSS", "HTML", "JavaScript"],
       "link": "papertradersapp.com"
