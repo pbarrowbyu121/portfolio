@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-blue-100 h-screen flex flex-col">
+  <!-- <div class="bg-blue-100 flex flex-col"> -->
+  <div>
     <Header />
     <Nuxt />
   </div>
