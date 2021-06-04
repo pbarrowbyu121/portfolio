@@ -4,7 +4,7 @@
     class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
   >
     <h2 class="text-center">Group Projects</h2>
-    <div class="mt-8" v-for="project in groupProjects" :key="project">
+    <div class="mt-8 text-sm lg:text-md" v-for="project in groupProjects" :key="project">
       <div class="grid grid-cols-4 font-bold">
         <div class="col-span-3 text-left text-md">
           {{ project.name }} - {{ project.location }}
@@ -12,7 +12,7 @@
         <div class="text-right text-md">{{ project.dates }}</div>
       </div>
       <div class="prose experience-bullets">
-        <ul class="ml-4">
+        <ul class="ml-4 text-sm lg:text-base">
           <li v-for="bullet in project.bullets" :key="bullet">
             {{ bullet }}
           </li>
