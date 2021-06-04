@@ -5,16 +5,16 @@
   >
     <h2 class="text-center">Professional Experience</h2>
     <div class="mt-8" v-for="company in companyExp" :key="company">
-      <div class="mb-0 text-2xl font-bold">
+      <div class="mb-0 font-bold text-md lg:text-2xl">
         {{ company.name }} - {{ company.location }}
       </div>
-      <div class="mt-4" v-for="position in company.positions" :key="position">
+      <div class="mt-4 text-sm lg:text-md" v-for="position in company.positions" :key="position">
         <div class="grid grid-cols-4 font-bold">
-          <div class="col-span-3 text-left text-md">{{ position.title }}</div>
-          <div class="text-right text-md">{{ position.dates }}</div>
+          <div class="col-span-3 text-left">{{ position.title }}</div>
+          <div class="text-right">{{ position.dates }}</div>
         </div>
         <div class="prose experience-bullets">
-          <ul class="ml-4">
+          <ul class="ml-4 text-sm lg:text-base">
             <li v-for="bullet in position.bullets" :key="bullet">
               {{ bullet }}
             </li>

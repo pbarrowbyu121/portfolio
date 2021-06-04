@@ -16,7 +16,7 @@
 -->
 <template>
   <body>
-    <div class="relative py-16 overflow-hidden bg-white">
+    <div class="relative py-8 overflow-hidden bg-white lg:py-16">
       <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div
           class="relative h-full mx-auto text-lg max-w-prose"
@@ -121,15 +121,17 @@
         </div>
       </div>
       <div class="relative px-4 sm:px-6 lg:px-8">
-        <div class="mx-auto text-lg max-w-prose">
+        <div class="mx-auto text-base lg:text-lg max-w-prose">
           <h1>
             <span
-              class="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl"
+              class="block mt-2 text-4xl font-extrabold leading-8 tracking-tight text-center text-gray-900"
             >
               Peter A Barrow
             </span>
           </h1>
-          <div class="m-auto prose text-center prose-indigo">
+          <div
+            class="m-auto text-sm prose text-center lg:text-base prose-indigo"
+          >
             <p>
               <a href="https://www.gmail.com" target="_blank"
                 >pbarrowbyu@gmail.com</a
@@ -152,7 +154,7 @@
           class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
         >
           <h2 class="text-center">Summary</h2>
-          <p class="mt-4 text-xl leading-8 text-gray-500">
+          <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             I’ve recently decided to pursue a career in web development,
             pivoting from positions in actuarial science. I taught myself to
             code through various online resources including FreeCodeCamp.org,
@@ -164,20 +166,22 @@
 
         <CompanyExp />
         <GroupProjects />
-      </div>
-      <div
-        id="professional-experience"
-        class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
-      >
-        <h2 class="text-center">Certifications</h2>
-        <div class="mt-8">
-          <div class="mb-0 text-2xl font-bold">
-            Bachelors of Science in Mathematics
-          </div>
-          <div class="font-bold text-md">Brigham Young University</div>
-          <div class="text-base">
-            Other courses taken: Accounting, Economics, Statistics, Computer
-            Science
+        <div
+          id="certications"
+          class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
+        >
+          <h2 class="text-center">Certifications</h2>
+          <div class="mt-8">
+            <div class="mb-0 font-bold text-md lg:text-2xl">
+              Bachelors of Science in Mathematics
+            </div>
+            <div class="text-sm font-bold lg:text-md">
+              Brigham Young University
+            </div>
+            <div class="text-xs lg:text-base">
+              Other courses taken: Accounting, Economics, Statistics, Computer
+              Science
+            </div>
           </div>
         </div>
       </div>
