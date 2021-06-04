@@ -9,6 +9,7 @@
         >
       </div>
       <div class="flex justify-between p-3">
+        <NuxtLink class="p-12" to="/resume"><p>Resume</p></NuxtLink>
         <NuxtLink class="p-12" to="/about"><p>About</p></NuxtLink>
       </div>
     </div>

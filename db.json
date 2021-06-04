@@ -40,7 +40,7 @@
       "skills": ["JavaScript", "Vue", "HTML", "Tailwind", "CSS"],
       "link": "https://github.com/pbarrowbyu121/contacts-app"
     },
-        {
+    {
       "id": 11,
       "title": "Twitter Clone",
       "image": "TwitterClone.png",
@@ -95,6 +95,75 @@
       "description": "Site that displays a random quote",
       "skills": ["React", "CSS", "HTML", "JavaScript"],
       "link": "https://github.com/pbarrowbyu121/contacts-app"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Homie",
+      "location": "South Jordan, UT",
+      "positions": [
+        {
+          "title": "Software Developer Apprentice",
+          "dates": "Apr 2021 - present",
+          "bullets": [
+            "Assisted in transferring internal site from Angular to Vue",
+            "Created page to upload multiple photos, select/deselect, delete, and re-order photos by dragging",
+            "Updated main site to order search results by newest listing instead of by price",
+            "Pair programming with other apprentice on work tickets",
+            "Gave presentation to management on HTTP requests using fetch and axios",
+            "Worked with team on tracking issues and site improvements"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regence BlueCross BlueShield",
+      "location": "Cottonwood Heights, UT",
+      "positions": [
+        {
+          "title": "Actuarial Analyst Assistant",
+          "dates": "Apr 2017 - Sep 2020",
+          "bullets": [
+            "Developed the model to analyze and present competitor Individual and Small Group rates",
+            "Model improvements to track and project monthly reinsurance estimates",
+            "Ad hoc model and data requests"
+          ]
+        },
+        {
+          "title": "Underwriter III, Large Group",
+          "dates": "Sep 2013 - Apr 2017",
+          "bullets": [
+            "Developed models and templates to improve efficiency of rating process",
+            "Uses actuarial models to analyze medical risk",
+            "Evaluates group risk and attaches appropriate insurance rate"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "location": "Salt Lake City, UT",
+      "positions": [
+        {
+          "title": "Contingent Worker with Client Entity Management",
+          "dates": "Mar 2013 - Sep 2013",
+          "bullets": [
+            "Performed due diligence and entity research",
+            "Data analysis and quality control"
+          ]
+        }
+      ]
+    }
+  ],
+  "groupProjects": [
+    {
+      "name": "Booklist App, FreeCodeCamp",
+      "location": "Salt Lake City, UT",
+      "dates": "Jan 2021 - present",
+      "bullets": [
+        "Helped a local meetup chapter design and create an app for tracking books using Vue/Quasar",
+        "Coordinated efforts via GitHub"
+      ]
     }
   ]
 }
