@@ -159,7 +159,9 @@
             Frontend Masters, and YouTube. I enjoy the problem solving and
             creativity required in web development.
           </p>
+          <hr class="mx-auto mt-2 rounded" />
         </div>
+
         <CompanyExp />
         <GroupProjects />
       </div>
@@ -198,5 +200,9 @@ export default {
 <style>
 .experience-bullets {
   max-width: 800px;
+}
+
+hr {
+  width: 70%;
 }
 </style>

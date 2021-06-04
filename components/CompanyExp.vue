@@ -22,6 +22,7 @@
         </div>
       </div>
     </div>
+    <hr class="mx-auto mt-2 rounded" />
   </div>
 </template>
 
@@ -38,4 +39,8 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style>
+hr {
+  width: 70%;
+}
+</style>
