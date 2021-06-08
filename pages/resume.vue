@@ -162,8 +162,8 @@
             creativity required in web development.
           </p>
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
-            Technical skills: HTML/HTML5, CSS, Javascript, Vue/Vuex, Quasar,
-            React/Redux, Tailwind, Bootstrap
+            Technical skills: HTML/HTML5, CSS, Javascript/JS, Vue/Vuex, Quasar,
+            React/Redux, Tailwind, Bootstrap, Chrome dev tools
           </p>
           <hr class="mx-auto mt-2 rounded" />
         </div>

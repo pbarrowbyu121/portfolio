@@ -108,6 +108,7 @@
           "bullets": [
             "Assisted in transferring internal site from Angular to Vue",
             "Created page to upload multiple photos, select/deselect, delete, and re-order photos by dragging",
+            "Used Chrome dev tools to compare page performance before and after code changes",
             "Updated main site to order search results by newest listing instead of by price",
             "Pair programming with other apprentice on work tickets",
             "Gave presentation to management on HTTP requests using fetch and axios",
