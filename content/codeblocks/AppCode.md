@@ -1,4 +1,4 @@
-```
+```js
 <template>
   <div id="q-app" class="text-krona-one">
     <router-view />

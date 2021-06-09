@@ -1,4 +1,4 @@
-```
+```js
 deleteCar() {
 	if(this.tanks) {
 	let deleteTanksArr = this.tanks.map(tank => tank.id)

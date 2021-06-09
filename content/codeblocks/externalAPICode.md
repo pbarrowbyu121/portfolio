@@ -1,4 +1,4 @@
-```
+```js
 getCarMakes() {
 	this.loading = true
 	fetch(`https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?format=json`, {

@@ -183,7 +183,7 @@
             the word “fetch”, specifying the url from where the information will
             be coming.
           </p>
-          <NuxtContent :document="getCarActionCode" />
+          <NuxtContent class="text-base" :document="getCarActionCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             Because javascript is a single-threaded language, it begins
             execution of a given line after the previous line of code has been
@@ -201,7 +201,7 @@
             console and uses a mutation to commit that response to the app’s
             state.
           </p>
-          <NuxtContent :document="AppCode" />
+          <NuxtContent class="text-base" :document="AppCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             This fetch request in the “getCarsAction” is called in the App
             component when the app is loaded to the browser. You can also see
@@ -218,7 +218,7 @@
             (the C in CRUD for “create”). The anatomy of the POST request using
             the fetch API is similar to the GET request.
           </p>
-          <NuxtContent :document="addCarActionCode" />
+          <NuxtContent class="text-base" :document="addCarActionCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             It begins with the word fetch, and the first argument is the url of
             the backend to which the data is being written. However, now there’s
@@ -230,7 +230,7 @@
             method beings specified as “GET” but the fetch API defaults to GET
             when no method is specified.
           </p>
-          <NuxtContent :document="onSubmitAddCarCode" />
+          <NuxtContent class="text-base" :document="onSubmitAddCarCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             This addCarAction returns a promise and is called in the app in an
             “onSubmit” method which is called when the “ADD CAR” button is
@@ -250,7 +250,7 @@
             using the fetch API is similar to the POST and GET requests
             discussed above.
           </p>
-          <NuxtContent :document="editCarActionCode" />
+          <NuxtContent class="text-base" :document="editCarActionCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             It begins with the fetch statement, first argument is the url of the
             backend, and the second argument specifies the method, headers, and
@@ -259,7 +259,10 @@
             statement. The id of the item being edited (car or tank id) must be
             specified. Here it is passed in as part of the payload.
           </p>
-          <NuxtContent :document="onSubmitEditCarActionCode" />
+          <NuxtContent
+            class="text-base"
+            :document="onSubmitEditCarActionCode"
+          />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             This “editCarAction” containing the fetch request is called in
             another (separate) “onSubmit” method in the app. Once the returned
@@ -277,7 +280,7 @@
             the server (the D in CRUD for “delete”). The makeup of a DELETE
             request is similar to the other types of requests above.
           </p>
-          <NuxtContent :document="deleteCarActionCode" />
+          <NuxtContent class="text-base" :document="deleteCarActionCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             The id of the item being deleted must be included in the first
             argument url. The method is specified in the second argument object
@@ -288,7 +291,7 @@
             clicked. Similar to above, once this returned promise is resolved,
             the getCarsAction is called.
           </p>
-          <NuxtContent :document="deleteCarCode" />
+          <NuxtContent class="text-base" :document="deleteCarCode" />
         </div>
         <div
           id="external-requests"
@@ -302,7 +305,7 @@
             the method as GET in the second argument object as an example. These
             are called when filling out forms for new cars entered into the app.
           </p>
-          <NuxtContent :document="externalAPICode" />
+          <NuxtContent class="text-base" :document="externalAPICode" />
         </div>
         <div
           id="external-requests"

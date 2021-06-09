@@ -1,4 +1,4 @@
-```
+```js
 onSubmit() {
 	let newCarObj = {
 	id: uid(),
