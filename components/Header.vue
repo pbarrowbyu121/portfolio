@@ -24,23 +24,23 @@
         <NuxtLink class="m-auto mx-4 text-xs lg:mx-6 lg:text-base" to="/about"
           ><p>About</p></NuxtLink
         >
-        <NuxtLink
+        <!-- <NuxtLink
           class="m-auto mx-4 text-xs lg:mx-6 lg:text-base"
           to="/fetchAPIarticle"
           ><p>Articles</p></NuxtLink
-        >
-        <!-- <articles-dropdown /> -->
+        > -->
+        <ArticleDropdown class="m-auto mx-4 text-xs lg:mx-6 lg:text-base" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// import ArticlesDropdown from './ArticlesDropdown.vue'
+import ArticleDropdown from './ArticleDropdown.vue'
 export default {
-  name: 'MyHeader',
+  name: 'Header',
   components: {
-    // ArticlesDropdown,
+    ArticleDropdown,
   },
 }
 </script>
