@@ -141,9 +141,7 @@
                 >github.com/pbarrowbyu121</a
               >
               |
-              <a
-                href="https://www.linkedin.com/in/peter-barrow-14853124/"
-                target="_blank"
+              <a href="https://www.linkedin.com/in/pbarrowbyu/" target="_blank"
                 >LinkedIn</a
               >
             </p>
