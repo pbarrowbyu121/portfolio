@@ -18,6 +18,9 @@
         >
       </div>
       <div class="flex justify-between lg:mx-12">
+        <NuxtLink class="m-auto mx-4 text-xs lg:mx-6 lg:text-base" to="/"
+          ><p>Portfolio</p></NuxtLink
+        >
         <NuxtLink class="m-auto mx-4 text-xs lg:mx-6 lg:text-base" to="/resume"
           ><p>Resume</p></NuxtLink
         >
