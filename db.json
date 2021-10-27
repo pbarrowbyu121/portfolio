@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "id": 14,
+      "title": "Voting App",
+      "image": "VotingApp.png",
+      "description": "React Polling App project prompted by FreeCodeCamp.org to track votes",
+      "skills": ["React", "Redux", "Redux Toolkit", "React Google Chart", "CSS", "HTML", "JavaScript"],
+      "link": "https://github.com/pbarrowbyu121/vote-app"
+    },
+    {
       "id": 13,
       "title": "PaperTradersApp.com",
       "image": "papertradersapp.png",
