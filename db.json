@@ -107,12 +107,25 @@
   ],
   "professionalExperience": [
     {
+      "name": "Operational Results",
+      "location": "Highland, UT",
+      "positions": [
+        {
+          "title": "Junior Frontend Developer",
+          "dates": "Aug 2021 - present",
+          "bullets": [
+            "Frontend development of app using React, TypeScript"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Homie",
       "location": "South Jordan, UT",
       "positions": [
         {
           "title": "Software Developer Apprentice",
-          "dates": "Apr 2021 - present",
+          "dates": "Apr 2021 - Jul 2021",
           "bullets": [
             "Assisted in transferring internal site from Angular to Vue",
             "Created page to upload multiple photos, select/deselect, delete, and re-order photos by dragging",

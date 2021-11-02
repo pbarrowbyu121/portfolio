@@ -170,7 +170,7 @@
         >
           <h2>Install Redux</h2>
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
-            To begin, install Redux:
+            To begin, install React-Redux and Redux:
           </p>
           <NuxtContent class="text-base" :document="installReduxCode" />
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
