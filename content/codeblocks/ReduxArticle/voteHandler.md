@@ -4,9 +4,8 @@ const voteHandler = (e) => {
 	if (selectedOption === "add-option") {
 		addOptionHandler();
 	} else {
-		let editedOption = {
-			...optionsList.find((option) => option.id === +selectedOption),
-		};
+		let editedOption = optionsList.find((option) => option.id === +selectedOption)
+		
 		editedOption = { ...editedOption, count: +editedOption.count + 1 };
 
 		voteOption(editedOption).then((res) =>
