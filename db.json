@@ -181,14 +181,14 @@
       ]
     }
   ],
-  "groupProjects": [
+  "sideProjects": [
     {
-      "name": "Booklist App, FreeCodeCamp",
+      "name": "PaperTradersApp.com",
       "location": "Salt Lake City, UT",
       "dates": "Jan 2021 - present",
       "bullets": [
-        "Helped a local meetup chapter design and create an app for tracking books using Vue/Quasar",
-        "Coordinated efforts via GitHub"
+        "Designed and built my own stock-trading simulator website.",
+        "Currently working on the iOS application version"
       ]
     }
   ]
