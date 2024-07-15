@@ -153,11 +153,14 @@
         >
           <h2 class="text-center">Summary</h2>
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
-            I’ve recently decided to pursue a career in web development,
-            pivoting from positions in actuarial science. I taught myself to
-            code through various online resources including FreeCodeCamp.org,
-            Frontend Masters, and YouTube. I enjoy the problem solving and
-            creativity required in web development.
+            I am a self-taught frontend web developer who transitioned from a
+            career in actuarial science in 2020 to pursue my passion for coding.
+            I acquired my skills through platforms like FreeCodeCamp.org,
+            Frontend Masters, and YouTube, driven by my enjoyment of
+            problem-solving and the creative challenges of web development. I
+            have applied my knowledge by creating a personal website that
+            simulates stock trading, demonstrating my ability to innovate and
+            apply technical skills in practical projects.
           </p>
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
             Technical skills: HTML/HTML5, CSS, Javascript/JS, Vue/Vuex, Quasar,
