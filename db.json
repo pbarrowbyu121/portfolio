@@ -115,10 +115,10 @@
           "dates": "Aug 2021 - July 2024",
           "bullets": [
             "Worked in React/Remix under collaboration with UX designer and manager to build web application enhancements and features.",
-            "Utilized Tailwind CSS for efficient and maintainable styling, ensuring consistency across the application.",
-            "Used Drizzle ORM to seamlessly communicate with backend services, optimizing data fetching and state management.",
-            "Leveraged AI tools to enhance coding efficiency and problem-solving capabilities, staying updated with the latest technologies and best practices.",
-            "Acquired proficiency in TypeScript to enhance the robustness and maintainability of React/Redux applications."
+            "Utilized Tailwind CSS for efficient and maintainable styling.",
+            "Used Drizzle ORM to communicate with backend services.",
+            "Leveraged AI tools to enhance coding efficiency and problem-solving capabilities.",
+            "Acquired proficiency in TypeScript to enhance the robustness and maintainability of the React/Remix application."
           ]
         }
       ]
