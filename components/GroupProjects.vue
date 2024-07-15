@@ -3,8 +3,12 @@
     id="professional-experience"
     class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
   >
-    <h2 class="text-center">Group Projects</h2>
-    <div class="mt-8 text-sm lg:text-md" v-for="project in groupProjects" :key="project">
+    <h2 class="text-center">Side Projects</h2>
+    <div
+      v-for="project in groupProjects"
+      :key="project"
+      class="mt-8 text-sm lg:text-md"
+    >
       <div class="grid grid-cols-4 font-bold">
         <div class="col-span-3 text-left text-md">
           {{ project.name }} - {{ project.location }}
@@ -30,7 +34,7 @@ export default {
   name: 'GroupProjects',
   data() {
     return {
-      groupProjects: dbdata.groupProjects,
+      groupProjects: dbdata.sideProjects,
     }
   },
 }
