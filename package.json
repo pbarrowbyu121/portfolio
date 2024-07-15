@@ -17,7 +17,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.8.3",
     "json-server": "^0.16.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.18.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

@@ -10,6 +10,7 @@ export default {
   components: {
     Projects,
   },
+  layout: 'default',
 }
 </script>
 

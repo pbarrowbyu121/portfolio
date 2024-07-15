@@ -1,12 +1,12 @@
 <template>
-  <div id="projectsPage" class="flex-1 overflow-y-auto">
+  <div id="projectsPage" class="flex-1 overflow-y-auto bg-blue-50">
     <h1 class="mt-10 text-2xl font-bold text-center">Projects</h1>
     <div
       id="projectsContainer"
       class="grid max-w-lg gap-5 m-16 lg:grid-cols-3 lg:max-w-none"
     >
-      <div v-for="project in newProjects" v-bind:key="project.id">
-        <Project v-bind:project="project" />
+      <div v-for="project in newProjects" :key="project.id">
+        <Project :project="project" />
       </div>
     </div>
   </div>

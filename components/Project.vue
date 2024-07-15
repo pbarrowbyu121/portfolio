@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
     <!-- image div -->
-    <div class="flex-shrink-0">
+    <div class="flex-shrink-0 m-3">
       <img class="h-48 w-full object-scale-down" :src="projImage" />
     </div>
     <!-- div for text level 1 -->
@@ -26,9 +26,9 @@
         </h2>
         <ul class="m-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-2">
           <li
-            class="content-center"
             v-for="skill in project.skills"
-            v-bind:key="skill"
+            :key="skill"
+            class="content-center"
           >
             <p
               class="p-1 text-center text-sm justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md"
@@ -46,7 +46,9 @@
 
     <div>
       <div class="flex pl-8 pb-2">
-        <a :href="project.link" class="hover:underline">View Code Here</a>
+        <a :href="project.link" class="hover:underline">{{
+          project.id === 13 ? 'View Site Here' : 'View Code Here'
+        }}</a>
       </div>
     </div>
   </div>
