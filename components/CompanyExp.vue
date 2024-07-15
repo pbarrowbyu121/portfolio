@@ -3,12 +3,16 @@
     id="professional-experience"
     class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
   >
-    <h2 class="text-center">Professional Experience</h2>
-    <div class="mt-8" v-for="company in companyExp" :key="company">
+    <h2 class="text-center">Professional Experiencexx</h2>
+    <div v-for="company in companyExp" :key="company" class="mt-8">
       <div class="mb-0 font-bold text-md lg:text-2xl">
         {{ company.name }} - {{ company.location }}
       </div>
-      <div class="mt-4 text-sm lg:text-md" v-for="position in company.positions" :key="position">
+      <div
+        v-for="position in company.positions"
+        :key="position"
+        class="mt-4 text-sm lg:text-md"
+      >
         <div class="grid grid-cols-4 font-bold">
           <div class="col-span-3 text-left">{{ position.title }}</div>
           <div class="text-right">{{ position.dates }}</div>

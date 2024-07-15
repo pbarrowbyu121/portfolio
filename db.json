@@ -5,7 +5,15 @@
       "title": "Voting App",
       "image": "VotingApp.png",
       "description": "React Polling App project prompted by FreeCodeCamp.org to track votes",
-      "skills": ["React", "Redux", "Redux Toolkit", "React Google Chart", "CSS", "HTML", "JavaScript"],
+      "skills": [
+        "React",
+        "Redux",
+        "Redux Toolkit",
+        "React Google Chart",
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
       "link": "https://github.com/pbarrowbyu121/vote-app"
     },
     {
@@ -111,10 +119,14 @@
       "location": "Highland, UT",
       "positions": [
         {
-          "title": "Junior Frontend Developer",
-          "dates": "Aug 2021 - present",
+          "title": "Mid-Level Frontend Developer",
+          "dates": "Aug 2021 - July 2024",
           "bullets": [
-            "Frontend development of app using React, TypeScript"
+            "Collaborated with UX designers and managers to implement features using React and Redux.",
+            "Utilized Tailwind CSS for efficient and maintainable styling, ensuring consistency across the application.",
+            "Used Drizzle ORM to seamlessly communicate with backend services, optimizing data fetching and state management.",
+            "Leveraged AI tools to enhance coding efficiency and problem-solving capabilities, staying updated with the latest technologies and best practices.",
+            "Acquired proficiency in TypeScript to enhance the robustness and maintainability of React/Redux applications."
           ]
         }
       ]
