@@ -5,7 +5,7 @@
       "title": "PaperTradersApp.com",
       "image": "PaperTraders.png",
       "description": "Vue3-Quasar App to simulate stock trading without requiring broker account",
-      "skills": ["Quasar", "Vue", "CSS", "HTML", "JavaScript"],
+      "skills": ["Quasar", "Vue", "Firebase", "Vuex", "Express.js"],
       "link": "https://www.papertradersapp.com"
     },
     {
