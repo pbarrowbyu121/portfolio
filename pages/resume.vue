@@ -163,9 +163,8 @@
             apply technical skills in practical projects.
           </p>
           <p class="mt-4 text-base leading-8 text-gray-500 lg:text-xl">
-            Technical skills: HTML/HTML5, CSS, Javascript/JS, React, React
-            Native, Remix, Redux, Vue/Vuex, Quasar, TypeScript, Tailwind,
-            Bootstrap, Chrome dev tools
+            Technical skills: React, React Native, Remix, Redux, Vue/Vuex,
+            Quasar, TypeScript, Tailwind, Bootstrap, PostgreSQL, Bash
           </p>
           <hr class="mx-auto mt-2 rounded" />
         </div>
