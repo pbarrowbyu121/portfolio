@@ -175,8 +175,14 @@
           id="certications"
           class="mx-auto mt-6 prose prose-xl text-gray-500 prose-indigo"
         >
-          <h2 class="text-center">Certifications</h2>
-          <div class="mt-8">
+          <h2 class="text-center">Education & Certifications</h2>
+          <div>
+            <div class="mb-0 font-bold text-md lg:text-2xl">
+              AWS Certified Cloud Practitioner
+            </div>
+            <div class="text-sm font-bold lg:text-md">Amazon Web Services</div>
+          </div>
+          <div class="mt-4">
             <div class="mb-0 font-bold text-md lg:text-2xl">
               Bachelors of Science in Mathematics
             </div>
