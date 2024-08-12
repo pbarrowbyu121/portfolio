@@ -1,8 +1,11 @@
 <template>
   <div class="flex justify-center">
     <div>
-      <Decoder />
       <TreasureHuntInstructions />
+      <Decoder />
+      <div class="p-4">
+        <img src="../assets/images/IMG_4513.jpg" />
+      </div>
       <TreasureHuntImages />
     </div>
   </div>
