@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="p-4" style="max-width: 320px">
     <form
       class="rounded shadow-lg mx-5 bg-blue-200 grid grid-rows gap-4 px-4 py-3"
       @submit.prevent="handleSubmit"
