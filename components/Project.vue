@@ -24,7 +24,9 @@
         <h2 class="ml-4 mt-4 text-gray-500 text-xs font-medium uppercase">
           Skills used
         </h2>
-        <ul class="m-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-2">
+        <ul
+          class="m-3 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-2 list-none"
+        >
           <li
             v-for="skill in project.skills"
             :key="skill"
