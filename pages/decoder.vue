@@ -6,7 +6,7 @@
         <Decoder />
       </div>
       <template v-if="isBeforeSevenPM">
-        <div class="flex justify-center mx-auto">
+        <div class="flex justify-center mx-auto mb-4">
           <Countdown />
         </div>
       </template>
@@ -43,10 +43,10 @@ export default {
   },
   computed: {
     isBeforeSevenPM() {
-      // Get current time
       const now = new Date()
-      // Create end time (7:00 PM MST)
-      const end = new Date(
+
+      // Calculate the date and time for Monday, the 19th at 7:00 PM
+      const targetDate = new Date(
         now.getFullYear(),
         now.getMonth(),
         now.getDate(),
@@ -55,9 +55,17 @@ export default {
         0
       )
 
-      // Adjust for MST if needed (assuming the local time is MST)
-      // Convert to milliseconds since epoch for comparison
-      return now < end
+      // Calculate the number of days until next Monday
+      const daysUntilNextMonday = (8 - now.getDay()) % 7 // Days until next Monday
+
+      // If today is Monday and the time is past 7:00 PM, we need to set the target to the next Monday
+      if (now.getDay() === 1 && now.getHours() >= 19) {
+        targetDate.setDate(now.getDate() + 7) // Move to the next Monday
+      } else {
+        targetDate.setDate(now.getDate() + daysUntilNextMonday)
+      }
+
+      return now < targetDate
     },
   },
   created() {

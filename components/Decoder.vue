@@ -4,7 +4,7 @@
       class="rounded shadow-lg mx-5 bg-blue-200 grid grid-rows gap-4 px-4 py-3"
       @submit.prevent="handleSubmit"
     >
-      <div class="font-bold">FHE August 12, 2024</div>
+      <div class="font-bold">FHE August 19, 2024</div>
       <div class="grid grid-rows gap-4">
         <div class="" style="width: 200px">
           <label for="column">Column:</label>
