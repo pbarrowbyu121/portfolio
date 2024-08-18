@@ -30,13 +30,14 @@ export default {
         19,
         0,
         0
-      ) // 7:00 PM
-      if (now > end) {
-        end.setDate(end.getDate() + 7) // Move to the same time next week
-      } else {
-        // If the end time is in the future, set it for next week
-        end.setDate(end.getDate() + (7 - now.getDay())) // Move to next Monday
+      ) // 7:00 PM today
+      const dayOfWeek = now.getDay()
+
+      if (dayOfWeek !== 1 || now > end) {
+        // If today is not Monday or the time is past 7:00 PM, move to next Monday
+        end.setDate(now.getDate() + ((1 - dayOfWeek + 7) % 7))
       }
+
       this.endTime = end
       this.updateCountdown()
       this.timer = setInterval(this.updateCountdown, 1000)
