@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .nuxt-content h1,
 h2,
 h3 {
