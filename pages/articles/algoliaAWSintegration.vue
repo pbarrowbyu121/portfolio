@@ -1,8 +1,10 @@
 <template>
-  <div class="mx-auto mt-10" style="max-width: 750px">
-    <DotSquare />
-    <NuxtContent class="" :document="article" />
-  </div>
+  <body>
+    <div class="mx-auto mt-10" style="max-width: 750px">
+      <DotSquare />
+      <NuxtContent class="" :document="article" />
+    </div>
+  </body>
 </template>
 
 <script>

@@ -5,11 +5,11 @@
       <div class="flex justify-center">
         <Decoder />
       </div>
-      <template v-if="isBeforeSevenPM">
+      <!-- <template v-if="isBeforeSevenPM">
         <div class="flex justify-center mx-auto mb-4">
           <Countdown />
         </div>
-      </template>
+      </template> -->
 
       <div class="p-4">
         <img src="../assets/images/IMG_4513.jpg" />
@@ -24,13 +24,13 @@
 import Decoder from '../components/Decoder.vue'
 import TreasureHuntInstructions from '../components/TreasureHuntInstructions.vue'
 import TreasureHuntImages from '../components/TreasureHuntImages.vue'
-import Countdown from '../components/Countdown.vue'
+// import Countdown from '../components/Countdown.vue'
 export default {
   components: {
     Decoder,
     TreasureHuntInstructions,
     TreasureHuntImages,
-    Countdown,
+    // Countdown,
   },
   data() {
     return {
