@@ -67,7 +67,7 @@
           ><NuxtLink to="/articles/ReduxArticle">Redux</NuxtLink>
         </a>
       </div>
-      <div class="py-1" role="none">
+      <!-- <div class="py-1" role="none">
         <a
           id="menu-item-2"
           href="#"
@@ -79,7 +79,7 @@
             >Algolia & AWS Layers</NuxtLink
           ></a
         >
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
