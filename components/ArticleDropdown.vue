@@ -2,9 +2,9 @@
   <div class="relative inline-block text-left">
     <div>
       <button
+        id="menu-button"
         type="button"
         class="inline-flex justify-center w-full"
-        id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"
         @click="showDropDown = !showDropDown"
@@ -38,38 +38,48 @@
       To: "transform opacity-0 scale-95"
   -->
     <div
+      v-if="showDropDown"
       class="dropdown absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="menu-button"
       tabindex="-1"
-      v-if="showDropDown"
     >
-      <div class="py-1" role="none">        
+      <div class="py-1" role="none">
         <a
+          id="menu-item-0"
           href="#"
           class="block px-4 py-2 text-sm text-gray-700"
           role="menuitem"
           tabindex="-1"
-          id="menu-item-0"
           @click="showDropDown = false"
           ><NuxtLink to="/articles/fetchAPIarticle">Fetch API</NuxtLink>
-          </a
-        >
+        </a>
       </div>
       <div class="py-1" role="none">
         <a
+          id="menu-item-1"
           href="#"
           class="block px-4 py-2 text-sm text-gray-700"
           role="menuitem"
           tabindex="-1"
-          id="menu-item-1"
           @click="showDropDown = false"
           ><NuxtLink to="/articles/ReduxArticle">Redux</NuxtLink>
-          </a
+        </a>
+      </div>
+      <div class="py-1" role="none">
+        <a
+          id="menu-item-2"
+          href="#"
+          class="block px-4 py-2 text-sm text-gray-700"
+          role="menuitem"
+          tabindex="-1"
+          @click="showDropDown = false"
+          ><NuxtLink to="/articles/algoliaAWSintegration"
+            >Algolia & AWS Layers</NuxtLink
+          ></a
         >
       </div>
-       
     </div>
   </div>
 </template>
@@ -87,6 +97,6 @@ export default {
 
 <style>
 .dropdown {
-  z-index: 20
+  z-index: 20;
 }
 </style>
