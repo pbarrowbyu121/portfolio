@@ -10,13 +10,12 @@
           <Countdown />
         </div>
       </template>
-      <template v-else>
-        <div class="p-4">
-          <img src="../assets/images/IMG_4513.jpg" />
-        </div>
 
-        <TreasureHuntImages />
-      </template>
+      <div class="p-4">
+        <img src="../assets/images/IMG_4513.jpg" />
+      </div>
+
+      <TreasureHuntImages />
     </div>
   </div>
 </template>
