@@ -1,10 +1,8 @@
 <template>
-  <body>
-    <div class="mx-auto mt-10" style="max-width: 750px">
-      <DotSquare />
-      <NuxtContent class="" :document="article" />
-    </div>
-  </body>
+  <div class="relative mx-auto mt-10" style="max-width: 750px">
+    <DotSquare />
+    <NuxtContent class="" :document="article" />
+  </div>
 </template>
 
 <script>
@@ -23,10 +21,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .nuxt-content h1,
-h2,
-h3 {
+.nuxt-content h2,
+.nuxt-content h3 {
   font-weight: bold;
 }
 .nuxt-content h1 {
@@ -61,7 +59,7 @@ h3 {
   color: #0056b3; /* Same as hover color for active links */
 }
 .nuxt-content ol,
-ul {
+.nuxt-content ul {
   list-style-position: inside;
 }
 /* Add any styles here */

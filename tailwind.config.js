@@ -1,9 +1,7 @@
 module.exports = {
+  purge: [],
   // purge: {
-  //   content: [
-  //     // ...
-  //     './content/*.md',
-  //   ],
+  //   // content: ['./content/*.md'],
   // },
   darkMode: false, // or 'media' or 'class'
   theme: {
