@@ -80,6 +80,19 @@
           ></a
         >
       </div>
+      <div class="py-1" role="none">
+        <a
+          id="menu-item-2"
+          href="#"
+          class="block px-4 py-2 text-sm text-gray-700"
+          role="menuitem"
+          tabindex="-1"
+          @click="showDropDown = false"
+          ><NuxtLink to="/articles/awsCognitoSignUp"
+            >AWS Cognito Sign Up</NuxtLink
+          ></a
+        >
+      </div>
     </div>
   </div>
 </template>
