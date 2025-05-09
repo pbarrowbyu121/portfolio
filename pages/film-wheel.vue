@@ -1,6 +1,7 @@
 <template>
   <div class="film-wheel-container">
-    <h1>Film Wheel</h1>
+    <h1 class="header">Kirsten and Peter's</h1>
+    <h1 class="header">Wheel o' Films</h1>
 
     <div class="picker-container">
       <div class="picker">
@@ -334,5 +335,11 @@ export default {
 .spin-button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 </style>
